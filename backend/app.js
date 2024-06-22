@@ -3,8 +3,12 @@ const mongoose = require('mongoose');
 const authMiddleware = require('./authMiddleware.js')
 const cors = require('cors');
 require('dotenv').config();
+const path = require("path");
 
 const app = express();
+const _dirname = path.dirname("")
+const buildpath = path.join(_dirname, "../frontend/build")
+app.use(express.static(buildpath));
 app.use(cors());
 app.use(express.json());
 
