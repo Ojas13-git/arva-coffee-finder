@@ -15,7 +15,7 @@ It includes the following:
 - Custom middleware to check for secret and access key
 - React frontend to HomePage, CoffeeShop, Map, ProductList, SearchBar 
 - React Tailwind CSS
--OpenStreetMap API to fetch location of coffeeshops using latitude longitude
+- OpenStreetMap API to fetch location of coffeeshops using latitude longitude
 
 ## Usage
 
