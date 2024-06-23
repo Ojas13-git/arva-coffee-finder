@@ -1,6 +1,8 @@
-# MERN Authentication Starter
+# Arva Coffee Shop Finder
 
-This is a starter app for a MERN stack application with authentication. This is for a SPA (Single Page Application) workflow that uses the [Vite](https://vite.dev) Build tool. This authentication workflow is based off of my [MERN Stack From Scratch | eCommerce](https://www.traversymedia.com/mern-stack-from-scratch) course.
+Coffee Shop Finder App that allows users to search for, explore, and interact with
+coffee shops. The app should have a highly interactive and smooth UI, leverage efficient
+APIs for data handling, and ensure secure and scalable deployment on AWS.
 
 ![image](https://github.com/Ojas13-git/arva-coffee-finder/assets/79032848/226d65a0-fed5-4442-a96d-b7b1034ffd51)
 
