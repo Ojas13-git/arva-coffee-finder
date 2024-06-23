@@ -5,7 +5,7 @@ and explore coffee shops, view their products, and get detailed information abou
 The app will include a robust backend built with Node.js, a dynamic frontend using React.js,
 data storage managed by MongoDB, and deployment on AWS.
 
-##Video Walkthrough: https://www.loom.com/share/613cfdfb238e4ca2ae8f2ffe3080757c?sid=a7949aeb-d35e-429a-a163-cb2df1298a29
+## Video Walkthrough: https://www.loom.com/share/613cfdfb238e4ca2ae8f2ffe3080757c?sid=a7949aeb-d35e-429a-a163-cb2df1298a29
 
 ![image](https://github.com/Ojas13-git/arva-coffee-finder/assets/79032848/226d65a0-fed5-4442-a96d-b7b1034ffd51)
 
