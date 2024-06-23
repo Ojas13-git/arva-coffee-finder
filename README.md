@@ -1,8 +1,9 @@
 # Arva Coffee Shop Finder
 
-Coffee Shop Finder App that allows users to search for, explore, and interact with
-coffee shops. The app should have a highly interactive and smooth UI, leverage efficient
-APIs for data handling, and ensure secure and scalable deployment on AWS.
+Coffee Shop Finder App that enables users to search for
+and explore coffee shops, view their products, and get detailed information about each shop.
+The app will include a robust backend built with Node.js, a dynamic frontend using React.js,
+data storage managed by MongoDB, and deployment on AWS.
 
 ![image](https://github.com/Ojas13-git/arva-coffee-finder/assets/79032848/226d65a0-fed5-4442-a96d-b7b1034ffd51)
 
@@ -10,19 +11,15 @@ APIs for data handling, and ensure secure and scalable deployment on AWS.
 It includes the following:
 
 - Backend API with Express & MongoDB
-- Routes for auth, logout, register, profile, update profile
-- JWT authentication stored in HTTP-only cookie
-- Protected routes and endpoints
-- Custom middleware to check JSON web token and store in cookie
-- Custom error middleware
-- React frontend to register, login, logout, view profile, and update profile
-- React Bootstrap UI library
-- React Toastify notifications
+- Routes for coffeShop, product, search
+- Custom middleware to check for secret and access key
+- React frontend to HomePage, CoffeeShop, Map, ProductList, SearchBar 
+- React Tailwind CSS
+-OpenStreetMap API to fetch location of coffeeshops using latitude longitude
 
 ## Usage
 
 - Create a MongoDB database and obtain your `MongoDB URI` - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register)
-- Create a PayPal account and obtain your `Client ID` - [PayPal Developer](https://developer.paypal.com/)
 
 ### Env Variables
 
@@ -32,16 +29,11 @@ Rename the `.env.example` file to `.env` and add the following
 NODE_ENV = development
 PORT = 5000
 MONGO_URI = your mongodb uri
-JWT_SECRET = 'abc123'
 ```
-
-Change the JWT_SECRET to what you want
 
 ### Install Dependencies (frontend & backend)
 
 ```
-npm install
-cd frontend
 npm install
 ```
 
@@ -50,16 +42,21 @@ npm install
 ```
 
 # Run frontend (:3000) & backend (:5000)
-npm run dev
+cd frontend
+npm start
 
 # Run backend only
-npm run server
+cd backend
+npm run dev
 ```
 
 ## Build & Deploy
+## Deployed on AWS EC2 Instance
 
 ```
 # Create frontend prod build
 cd frontend
 npm run build
 ```
+
+## Demonstrated efficient load handling and security measures in the deployment.
