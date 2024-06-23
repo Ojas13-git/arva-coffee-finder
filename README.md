@@ -1,4 +1,4 @@
-# Arva Coffee Shop Finder
+# Arva Coffee Shop Finder(http://13.127.31.253:5000/)
 
 Coffee Shop Finder App that enables users to search for
 and explore coffee shops, view their products, and get detailed information about each shop.
@@ -13,7 +13,9 @@ It includes the following:
 - Backend API with Express & MongoDB
 - Routes for coffeShop, product, search
 - Custom middleware to check for secret and access key
-- React frontend to HomePage, CoffeeShop, Map, ProductList, SearchBar 
+- React frontend to HomePage, CoffeeShop, Map, ProductList, SearchBar
+- Search Functionality by Name, Address, MinRating, Category
+- Sorting by Name and Rating
 - React Tailwind CSS
 - OpenStreetMap API to fetch location of coffeeshops using latitude longitude
 
